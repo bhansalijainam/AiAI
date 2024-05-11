@@ -9,7 +9,10 @@ In the realm of AI, significant advancements have been achieved in developing la
 To address this gap, our project focuses on:
 
 - **Dataset Collection**: We collected a novel veterinary medicine dataset named VetMed, comprising 500GB of training data sourced from reputable sources such as Wikipedia and ArXiv. This dataset includes over 56,000 question-answer and multiple-choice-question-answer pairs.
+  ![Dataset](./images/Dataset.jpeg)
 - **Model Development**: We developed a novel generative pre-trained transformer, VetMedGPT, specifically tailored for veterinary medicine healthcare. This model is fine-tuned and tested on the VetMed dataset to enhance its effectiveness in animal health diagnosis and care.
+  ![Workflow](./images/workflow.jeg)
+  ![Model ](./images/Model.jpeg)
 ## Results
 The Mistral 7B Instruct model attained the highest accuracy in answering veterinary science multiple-choice questions with a score of 0.4391, followed by Llama2 7B chat at 0.3173, highlighting their superior performance over Tinyllama-based models. Regarding text similarity, VetMedGPT showed a moderate improvement over TinyLlama 1B across ROUGE metrics, indicating its proficiency in generating responses closely aligned with reference texts.
 
