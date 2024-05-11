@@ -1,8 +1,8 @@
 # VetMedGPT
 VetMedGPT is a specialized tool developed to assist in the initial diagnosis and first aid for animals, aiming to bridge the gap in the field of artificial intelligence (AI) by providing tailored support for veterinary medicine healthcare.
 
-[Model](https://huggingface.co/azsxscdvfb/vetmedgpt-1B-V0.1)    
-[website](https://d19c-100-1-3-245.ngrok-free.app/) 
+- You can access the Model [Model](https://huggingface.co/azsxscdvfb/vetmedgpt-1B-V0.1)    
+- Explore the Website and Prototype [website](https://d19c-100-1-3-245.ngrok-free.app/) 
 ![UI](https://github.com/bhansalijainam/AiAI/blob/main/VetMedGPT/Web%20page%20UI.jpeg)
 ## Project Overview
 In the realm of AI, significant advancements have been achieved in developing large language models (LLMs) catering to various domains, including human healthcare. However, the domain of veterinary science has often been overlooked, resulting in limitations in the scope, efficacy, or availability of existing AI models for animal healthcare.
@@ -14,6 +14,7 @@ To address this gap, our project focuses on:
 - **Model Development**: We developed a novel generative pre-trained transformer, VetMedGPT, specifically tailored for veterinary medicine healthcare. This model is fine-tuned and tested on the VetMed dataset to enhance its effectiveness in animal health diagnosis and care.
   ![Workflow](https://github.com/bhansalijainam/AiAI/blob/main/VetMedGPT/Workflow.jpeg)
   ![Model ](https://github.com/bhansalijainam/AiAI/blob/main/VetMedGPT/Model.jpeg)
+- **Website Development**: In addition to the AI model, we have created a user-friendly website using Streamlit, providing detailed project information, visualizations, and interactive features for users to explore.
 ## Results
 The Mistral 7B Instruct model attained the highest accuracy in answering veterinary science multiple-choice questions with a score of 0.4391, followed by Llama2 7B chat at 0.3173, highlighting their superior performance over Tinyllama-based models. Regarding text similarity, VetMedGPT showed a moderate improvement over TinyLlama 1B across ROUGE metrics, indicating its proficiency in generating responses closely aligned with reference texts.
 
@@ -29,9 +30,7 @@ The Mistral 7B Instruct model attained the highest accuracy in answering veterin
 
 
 ## Technical information
-- **Programming Language**: Python
-- **Technologies Used**: 
-- **Model**: 
+Behind the scenes, VetMedGPT harnesses a diverse array of cutting-edge technologies to drive its development and deployment. Leveraging Python as the primary programming language, our project utilizes web scraping techniques to collect extensive datasets from reputable sources in veterinary medicine. The core model development and training are powered by TensorFlow, a leading machine learning framework, ensuring the robustness and effectiveness of our AI solution. Moreover, our user-friendly web interface is crafted using Streamlit, empowering users to seamlessly explore project information, and visualizations, and potentially interact with the model. This amalgamation of advanced methodologies and innovative technologies underscores our commitment to transformative advancements in veterinary medicine healthcare.
 ## Benefits
 - **Enhanced Accessibility**: VetMedGPT aims to make veterinary care more accessible to pet owners, particularly in situations where immediate clinical support is unavailable.
 - **Resource for Veterinary Professionals**: The tool also serves as a valuable resource for veterinary professionals, offering support and insights to address challenges posed by current limitations in AI-supported veterinary medicine
@@ -39,4 +38,5 @@ The Mistral 7B Instruct model attained the highest accuracy in answering veterin
 - **Virtual Veterinary Assistant App**: A web app for pet owners to input symptoms and receive initial diagnoses and first aid recommendations for their pets.
 - **Veterinary Clinic Support Tool**: Integration into veterinary clinics' systems to assist veterinarians in diagnosing and treating animal patients, providing additional insights and reference materials.
 - **Educational Resource for Veterinary Students**: An online platform for veterinary students to access educational materials and practice scenarios, serving as a virtual tutor for veterinary medicine studies.
+  
 ## Citations
